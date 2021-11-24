@@ -43,6 +43,49 @@ li a:hover:not(.active) {
 }
 
 
+div.homeContent {
+  position: relative;
+  padding: 1%;
+}
+
+div.homePicture1 {
+  position: absolute;
+  left: 10%;
+}
+
+div.textGroup1 {
+  position: absolute;
+  left: 30%;
+}
+
+div.textGroup2 {
+  position: absolute;
+  left: 50%;
+  top: 200px;
+}
+
+div.homePicture2 {
+  position: absolute;
+  left: 60%;
+}
+
+img.homePicture1 {
+  border-radius: 70px;
+  width:20%;
+  height:20%;
+  padding: 1%;
+}
+
+img.homePicture2 {
+  border-radius: 70px;
+  width:55%;
+  height:55%;
+  padding: 5px;
+}
 
 
+p.homeParagraph {
+  font-family: Arial;
+  width: 30%;
+}
 
