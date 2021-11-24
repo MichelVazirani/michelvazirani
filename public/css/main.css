@@ -1,4 +1,19 @@
-ul.nav_bar {
+
+h1.name {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+}
+
+h4.intro {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+}
+
+ul.navBar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6,11 +21,11 @@ ul.nav_bar {
   background-color: #333;
 }
 
-li.nav_box {
+li.navBox {
   float: left;
 }
 
-li a.nav_link {
+li a.navLink {
   display: block;
   color: white;
   text-align: center;
@@ -26,3 +41,8 @@ li a:hover:not(.active) {
 .active {
   background-color: #556B2F;
 }
+
+
+
+
+
