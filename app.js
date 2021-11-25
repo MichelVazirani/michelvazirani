@@ -24,7 +24,7 @@ app.get('/about', (req, res) => {
     res.render('about', { text: 'About'})
 })
 
-app.get('/sitemap.xml', function(req, res) {
+app.get('/sitemap', function(req, res) {
     res.sendFile('sitemap.xml');
 });
 
