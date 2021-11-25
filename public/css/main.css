@@ -59,6 +59,7 @@ div.homePicture1 {
 div.textGroup1 {
   position: absolute;
   left: 30%;
+  width: auto;
 }
 
 div.textGroup2 {
