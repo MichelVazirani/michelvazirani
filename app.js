@@ -24,8 +24,8 @@ app.get('/about', (req, res) => {
     res.render('about', { text: 'About'})
 })
 
-app.get('/sitemap', function(req, res) {
-    res.sendFile('sitemap.xml');
+app.get('/sitemap.xml', function(req, res) {
+    res.sendFile(__dirname+'/sitemap.xml');
 });
 
 app.listen(port, () => console.info(`App listening on port ${port}`))
