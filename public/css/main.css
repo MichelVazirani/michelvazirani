@@ -9,6 +9,12 @@ h1.name {
   font-family: Arial;
 }
 
+h1.about {
+  display: block;
+  text-decoration: none;
+  font-family: Arial;
+}
+
 h4.intro {
   display: block;
   text-align: center;
